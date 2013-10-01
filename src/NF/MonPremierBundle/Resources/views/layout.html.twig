@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bienvenu(e){% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="stylesheet" href="{{ asset('bundles/FNMonPremierBundle/css/style.css') }}"
+        type="text/css" media="all" />
+        
+    </head>
+    <body>
+        <img src="{{ asset('bundles/NFMonPremierBundle/images/logo.gif') }}" alt="logo"
+        width="" height="" />
+        {% block body %}
+            <h1>Voici mon premier site Symfony version : {{message}}</h1>
+            <p>Le bloc body a donc maintenant un contenu </p>
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

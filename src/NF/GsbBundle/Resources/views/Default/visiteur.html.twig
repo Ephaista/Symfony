@@ -1,0 +1,6 @@
+{% extends 'NFGsbBundle:Default:base.html.twig'%}
+{% block body %}
+		{% for unEl in laListe %}
+                <p>{{unEl.nom}} {{unEl.prenom}}</p>
+                {% endfor %}
+{% endblock %}

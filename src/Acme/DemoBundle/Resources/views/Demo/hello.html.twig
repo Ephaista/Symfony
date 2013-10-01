@@ -1,0 +1,13 @@
+{% extends "AcmeDemoBundle::layout.html.twig" %}
+
+{% block title "Bonjour " ~ name %}
+
+{% block content_header_more %}
+                <li><a href="{{ path('_demo') }}">La modification de l'action Hello !!!</a></li>
+{% endblock %}
+			
+{% block content %}
+    <h1>Bienvenu(e) {{ name }}!</h1>
+{% endblock %}
+
+{% set code = code(_self) %}

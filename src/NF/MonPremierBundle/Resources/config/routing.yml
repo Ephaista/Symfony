@@ -1,0 +1,3 @@
+NFMonPremierBundle_accueil:
+    pattern:  /NF
+    defaults: { _controller: NFMonPremierBundle:Default:index }

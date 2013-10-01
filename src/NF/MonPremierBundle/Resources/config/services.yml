@@ -1,0 +1,7 @@
+parameters:
+#    nf_mon_premier.example.class: NF\MonPremierBundle\Example
+
+services:
+#    nf_mon_premier.example:
+#        class: %nf_mon_premier.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,8 @@
+nf_gsb:
+    resource: "@NFGsbBundle/Resources/config/routing.yml"
+    prefix:   /
+
+nf_mon_premier:
+    resource: "@NFMonPremierBundle/Resources/config/routing.yml"
+    prefix:   /NF
+

@@ -1,0 +1,6 @@
+NFGsbBundle_accueil:
+    pattern:  /gsb
+    defaults: { _controller: NFGsbBundle:Default:index }
+NFGsbBundle_visiteur:
+    pattern:  /visiteur
+    defaults: { _controller: NFGsbBundle:Default:visiteur }
