@@ -4,3 +4,6 @@ NFGsbBundle_accueil:
 NFGsbBundle_visiteur:
     pattern:  /visiteur
     defaults: { _controller: NFGsbBundle:Default:visiteur }
+    NFGsbBundle_visiteur:
+    pattern:  /activite
+    defaults: { _controller: NFGsbBundle:Default:activite }
